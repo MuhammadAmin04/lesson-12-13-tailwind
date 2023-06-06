@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icons/logo.svg">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- build css -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Prabot</title>
+</head>
+<body style="font-family: 'Roboto' ">
+    
+    <header class="w-full relative top-[77px]">
+        <div class="container mx-auto px-5">                                 
+            <nav class="flex justify-between w-full h-[110px] items-center">
+                <a href="#"><img src="./assets/icons/logo.svg" alt="Logo" class="hover:rotate-[360deg] duration-300"></a>
+
+                <ul class="flex gap-x-[106px] items-center">
+                    <li class="text-[#959595] text-[18px] leading-[30.63px] hover:text-black duration-200">
+                        <a href="#">Daftar Akun</a>
+                    </li>
+                    <li>
+                        <button class="bg-[#7AB674] w-[69px] h-[69px] grid place-items-center text-white hover:bg-green-600 hover:border-2 border-green-600  duration-200 hover:text-green active:bg-green-800 active:text-black ">
+                        <i data-feather="shopping-bag"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="">
+        <section id="intro" class="pt-[292px] bg-[url('assets/icons/barg.svg')] bg-no-repeat bg-p">
+            <!-- <img src="./assets/icons/dfd21b1d91cd0bed4457a5b7a797d493 1.svg" alt=""> -->
+            <div class="container mx-auto">
+                
+                <div class="flex items-start">
+                    <div class="p-2 pt-6 w-[497px] ">
+                        <h1 class="text-[96px] font-medium leading-[95%] mb-[34px]">Alfonso Wardrobe <br> <span class="text-[#7AB674] font-black">2 Doors</span></h1>
+                        <p class="text-[#959595] text-lg mb-[42px]">Kini hadir sebagai lemari pakaian dengan desain yang minimalis serta cenderung terkesan elegan. </p>
+                        <button class="flex  items-center py-5 px-[35px] text-white bg-[#7AB674] font-black text-xl gap-x-[37px]"><span>BELI SEKARANG</span> <i data-feather="arrow-right"></i></button>
+                    </div>
+                    <div class="p-2 flex items-start -translate-y-24">
+                        <img src="./assets/images/shkaff.jpg" class="" alt="wardrobe">
+                        <ul class="text-[#959595] mt-[223px]">
+                            <li>
+                                <h3 class="font-bold text-2xl mb-[21px] text-black w-[124px]">Ukuran Produk</h3>
+                            </li>
+                            <li>
+                                <p>Panjang</p>
+                                <h3 class="text-[#7AB674] text-[32px] font-black">85 cm</h3>
+                            </li>
+                            <li>
+                                <p>Lebar</p>
+                                <h3 class="text-[#7AB674] text-[32px] font-black">56 cm</h3>
+                            </li>
+                            <li>
+                                <p>Tinggi</p>
+                                <h3 class="text-[#7AB674] text-[32px] font-black">180 cm</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script>
+  feather.replace()
+</script>
+</html>

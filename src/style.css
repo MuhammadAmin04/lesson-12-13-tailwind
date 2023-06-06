@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .bg-p{
+ background-position: 0 -200px !important;
+ background-color: lime !important;
+} */
